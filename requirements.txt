@@ -13,7 +13,7 @@ requests>=2.23.0
 scipy>=1.4.1
 thop>=0.1.1  # FLOPs computation
 torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
-torchvision==0.13
+torchvision>=0.8.1
 tqdm>=4.64.0
 tensorboard>=2.4.1
 easyocr==1.5.0
@@ -72,5 +72,3 @@ watchgod==0.7
     # via uvicorn
 websockets==10.0
     # via uvicorn
-
-PySpice==1.5
